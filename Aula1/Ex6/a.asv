@@ -1,0 +1,9 @@
+N = 10000; %Numero de experiencias
+p = 0.3;n %probabilidade de erro
+k = 2; %numero de erros que eu quero analisar
+n = 3; %Numero de peças no conjunto que sera analisado
+lancamentos = rand(n, N) > p;
+sucessos = sum(lancamentos)==k;
+probsimulacao = sum(sucessos)/ N;
+disp('Segundo método: ');
+disp(probsimulacao);
