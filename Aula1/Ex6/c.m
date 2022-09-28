@@ -10,4 +10,4 @@ probsimulacao = sum(pecasDefeituosas)/ N;
 disp('Simulaçao: ');
 disp(probsimulacao);
 
-histogram(pecas)
+histogram(sum(pecas))

@@ -1,0 +1,16 @@
+N = 10000; %Numero de experiencias
+p = 0.5; %probabilidade de ser rapaz
+k = 1; %numero de rapazes que eu quero analisar
+n = 2; %Numero de filhos no conjunto que sera analisado
+
+% B -> tem um filho rapaz
+% A -> tem dois filhos rapazes
+%P(A|B) = P(AnB)/P(B)
+%---------------------
+%P(AnB) = 0,25
+%P(B) = 0,75
+%P(A|B) = 0,25/ 0,75 = 0,33
+
+probB = probAnalitica(p, k, n)
+
+
