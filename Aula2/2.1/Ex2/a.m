@@ -1,4 +1,4 @@
-%randi(x, y, z) -> Random no intervalo de 0 até x,
+%randi(x, y, z) -> Random no intervalo de 1 até x,
 %                  Numa matriz com Y linhas e Z colunas
 lancamentos = randi(100,20,10000);
 
