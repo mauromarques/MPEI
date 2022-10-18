@@ -1,0 +1,16 @@
+exp = 100000;
+p= logspace(-3,log10(1/2),100)
+para_cair = 0.5;
+
+probs = zeros
+n2 = 0
+for i = 1:1:100
+    motor2 = rand(2,exp) <= prob_defeito(1,i);
+    motor2 = sum(motor2);
+    for j = 1:1:exp
+        n_falhas = motor2(1,j);
+        if n_falhas >= 2
+            n2 = n2 + 1
+        end
+    end
+end
