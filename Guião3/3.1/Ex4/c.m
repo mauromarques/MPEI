@@ -1,0 +1,2 @@
+%Analiticamente
+%fazer depois
